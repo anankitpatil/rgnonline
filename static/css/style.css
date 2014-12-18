@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@font-face{font-family:Notera;src:url(../fonts/notera.ttf)}
+
+body, html{font-family:'Raleway', sans-serif}
+.smooth{-webkit-transition:all 300ms ease-out;-moz-transition:all 300ms ease-out;-o-transition:all 300ms ease-out;transition:all 300ms ease-out}
+.draw-line{padding-bottom:48px;padding-top:24px;margin-bottom:96px}
+figure img{width:100%;height:auto}
+
+.navbar{min-height:96px;background:rgba(255,255,255,0)}
+.navbar.on{min-height:50px;background:rgba(255,255,255,0.66);border-bottom:1px solid #E4E4E4}
+.navbar .container{height:96px}
+.navbar.on .container{height:50px}
+.navbar .navbar-brand{font-size:18px;letter-spacing:2px;margin:23px 0;color:#FFF;font-family:Times New Roman, serif;text-transform:uppercase;text-align:center;padding-top:5px}
+.navbar .navbar-brand span{display:block;border-top:1px solid #CCC3B1;font-size:12px;margin-top:3px}
+.navbar.on .navbar-brand{margin:3px 0;color:#343434;margin:3px 0 3px -15px}
+.navbar .navbar-brand b{font-weight:400}
+.navbar .navbar-nav{margin:23px 0}
+.navbar.on .navbar-nav{margin:3px 0}
+.navbar .navbar-nav a{color:#E4E4E4;font-size:15px}
+.navbar.on .navbar-nav a{color:#343434}
+.navbar .navbar-nav a:hover, .navbar .navbar-nav .open .dropdown-toggle{color:#74BF46;background-color:transparent}
+.navbar .navbar-nav a:focus{background-color:rgba(255,255,255,0.5);color:#343434}
+.navbar .navbar-nav .dropdown-menu{background-color:rgba(255,255,255,0.15);border-radius:0px;border-width:0px}
+
+.video-background{position:relative;background-color:#000}
+.video-background .bokeh-video{width:100%;opacity:0;display:block}
+.video-background .text-over-video{top:300px;width:100%;opacity:0;font-family:Notera;font-size:72px;position:absolute;color:#FFF}
+.video-background .text-over-video i{font-family:'Raleway', sans-serif;text-transform:uppercase;font-weight:700;font-style:normal;font-size:14px;letter-spacing:3px;line-height:30px;display:block}
+.video-background .text-over-video .glyphicon{-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);font-size:48px;cursor:pointer}
+.video-background .text-over-video .glyphicon:hover{color:#74BF46}
+.image-background{position:relative;background-color:#FFF;margin:0 0 96px}
+.image-background figure{width:100%;display:block}
+.image-background .text-over-image{position:absolute;bottom:-48px;color:#343434;text-transform:uppercase;font-weight:600;width:100%;font-size:11px}
+.options div{text-align:center}
+.options figure{width:120px}	
+
+.home h1{font-family:Notera;font-size:60px;margin:150px 0 48px}
+.home .break{width:84px;margin:0 auto 24px}
+
+footer{border-top:1px solid #E4E4E4}
+footer p{margin:24px 0}
+footer .number{margin:18px 0}
+footer .number p{margin:12px 0}
+footer .social{text-align:right}
+footer .social a{display:inline-block;margin:32px 0 0 9px;border-radius:50%;border:1px solid #E4E4E4;height:45px;width:45px;text-align:center;color:#E4E4E4}
+footer .social a:hover{background-color:#E4E4E4}
+footer .social a i{line-height:45px;font-size:24px}
+footer .social a:hover i{color:#FFF}
