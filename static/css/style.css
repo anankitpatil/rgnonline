@@ -1,10 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-@font-face{font-family:Notera;src:url(../fonts/notera.ttf)}
+@font-face{font-family:'Notera';src:url('../fonts/notera.eot');src:url('../fonts/notera.eot?#iefix') format('embedded-opentype'),url('../fonts/notera.woff') format('woff'), url('../fonts/notera.ttf') format('truetype'), url('../fonts/notera.svg#notera') format('svg');font-weight:normal;font-style:normal}
 
 body, html{font-family:'Raleway', sans-serif}
 .smooth{-webkit-transition:all 300ms ease-out;-moz-transition:all 300ms ease-out;-o-transition:all 300ms ease-out;transition:all 300ms ease-out}
 .draw-line{padding-bottom:48px;padding-top:24px;margin-bottom:96px}
 figure img{width:100%;height:auto}
+.carousel-inner{overflow:visible}
 
 .navbar{min-height:96px;background:rgba(255,255,255,0)}
 .navbar.on{min-height:50px;background:rgba(255,255,255,0.66);border-bottom:1px solid #E4E4E4}
@@ -18,21 +19,29 @@ figure img{width:100%;height:auto}
 .navbar.on .navbar-nav{margin:3px 0}
 .navbar .navbar-nav a{color:#E4E4E4;font-size:15px}
 .navbar.on .navbar-nav a{color:#343434}
-.navbar .navbar-nav a:hover, .navbar .navbar-nav .open .dropdown-toggle{color:#74BF46;background-color:transparent}
+.navbar .navbar-nav a:hover, .navbar .navbar-nav .open .dropdown-toggle{background-color:transparent;color:#FFF}
+.navbar.on .navbar-nav a:hover{color:#000}
 .navbar .navbar-nav a:focus{background-color:rgba(255,255,255,0.5);color:#343434}
 .navbar .navbar-nav .dropdown-menu{background-color:rgba(255,255,255,0.15);border-radius:0px;border-width:0px}
 
 .video-background{position:relative;background-color:#000}
 .video-background .bokeh-video{width:100%;opacity:0;display:block}
-.video-background .text-over-video{top:300px;width:100%;opacity:0;font-family:Notera;font-size:72px;position:absolute;color:#FFF}
+.video-background .text-over-video{top:360px;width:100%;opacity:0;font-family:Notera;font-size:72px;position:absolute;color:#FFF}
 .video-background .text-over-video i{font-family:'Raleway', sans-serif;text-transform:uppercase;font-weight:700;font-style:normal;font-size:14px;letter-spacing:3px;line-height:30px;display:block}
-.video-background .text-over-video .glyphicon{-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);font-size:48px;cursor:pointer}
+.video-background .text-over-video .glyphicon{-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-ms-transform:rotate(90deg);font-size:48px;cursor:pointer;margin-top:240px}
 .video-background .text-over-video .glyphicon:hover{color:#74BF46}
-.image-background{position:relative;background-color:#FFF;margin:0 0 96px}
+.image-background{position:relative;background-color:#FFF;margin:0 0 180px}
 .image-background figure{width:100%;display:block}
 .image-background .text-over-image{position:absolute;bottom:-48px;color:#343434;text-transform:uppercase;font-weight:600;width:100%;font-size:11px}
-.options div{text-align:center}
-.options figure{width:120px}	
+.options{margin-bottom:96px}
+.options div{text-align:center;text-transform:uppercase;font-weight:600;font-size:11px;color:#343434;position:relative;margin-bottom:30px}
+.options figure{cursor:pointer;overflow:hidden;border:3px solid #E4E4E4;padding:12px}
+.options figure:hover{}
+.options figure img{-webkit-filter:grayscale(100%);opacity:0.33}
+.options figure:hover img{-webkit-filter:grayscale(0%);opacity:1}
+.options figure:hover + p{color:#E4E4E4}
+.options p{position:absolute;bottom:24px;width:calc(100% - 96px);text-align:left;line-height:22px;margin:0 33px}
+.options p i{float:right}
 
 .home h1{font-family:Notera;font-size:60px;margin:150px 0 48px}
 .home .break{width:84px;margin:0 auto 24px}
@@ -42,7 +51,46 @@ footer p{margin:24px 0}
 footer .number{margin:18px 0}
 footer .number p{margin:12px 0}
 footer .social{text-align:right}
-footer .social a{display:inline-block;margin:32px 0 0 9px;border-radius:50%;border:1px solid #E4E4E4;height:45px;width:45px;text-align:center;color:#E4E4E4}
+footer .social a{display:inline-block;margin:32px 0 32px 9px;border-radius:50%;border:1px solid #E4E4E4;height:45px;width:45px;text-align:center;color:#E4E4E4}
+footer .social a:first-child{margin-left:0px}
 footer .social a:hover{background-color:#E4E4E4}
 footer .social a i{line-height:45px;font-size:24px}
 footer .social a:hover i{color:#FFF}
+
+@media(min-width:1600px){
+.video-background .text-over-video{top:360px}
+}
+@media(min-width:1200px) and (max-width:1599px){
+.video-background .text-over-video{top:300px}
+.video-background .text-over-video .glyphicon{margin-top:150px}
+}
+@media(min-width:992px) and (max-width:1199px){
+.video-background .text-over-video{top:210px}
+.video-background .text-over-video .glyphicon{margin-top:90px}
+}
+@media(min-width:768px) and (max-width:991px){
+.navbar .navbar-nav a{padding:15px 6px;font-size:12px}
+.video-background .text-over-video{top:180px;font-size:60px}
+.video-background .text-over-video i{font-size:12px}
+.video-background .text-over-video .glyphicon{font-size:36px;margin-top:24px}
+}
+@media(max-width:767px){
+.navbar-toggle{margin-top:30px}
+.on .navbar-toggle{margin-top:12px}
+.on .navbar-header{margin-left:0px}
+.navbar-toggle .icon-bar{background:#E4E4E4}
+.on .navbar-toggle .icon-bar{background:#343434}
+.navbar-collapse{background:rgba(0,0,0,0.33)}
+.on .navbar-collapse{background:rgba(255,255,255,0.66)}
+.video-background .text-over-video{top:120px;font-size:42px}
+.video-background .text-over-video i{font-size:10px;font-weight:400;letter-spacing:2px}
+.video-background .text-over-video .glyphicon{font-size:24px;margin-top:0px}
+.home h1{font-size:51px;margin:150px 0 48px}
+footer .text-center{text-align:right}
+footer .social{text-align:center}
+}
+@media(max-width:479px){
+.video-background .text-over-video{top:90px;font-size:36px}
+footer .col-xs-6{width:100%}
+footer .text-center,footer .number{text-align:center}
+}
