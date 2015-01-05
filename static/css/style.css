@@ -8,19 +8,21 @@ figure img{width:100%;height:auto}
 .carousel-inner{overflow:visible}
 
 .navbar{min-height:96px;background:rgba(255,255,255,0)}
+.navbar.black{background:rgba(255,255,255,0.33)}
 .navbar.on{min-height:50px;background:rgba(255,255,255,0.66);border-bottom:1px solid #E4E4E4}
 .navbar .container{height:96px}
 .navbar.on .container{height:50px}
 .navbar .navbar-brand{font-size:18px;letter-spacing:2px;margin:23px 0;color:#FFF;font-family:Times New Roman, serif;text-transform:uppercase;text-align:center;padding-top:5px}
 .navbar .navbar-brand span{display:block;border-top:1px solid #CCC3B1;font-size:12px;margin-top:3px}
 .navbar.on .navbar-brand{margin:3px 0;color:#343434;margin:3px 0 3px -15px}
+.navbar.black .navbar-brand{color:#343434}
 .navbar .navbar-brand b{font-weight:400}
 .navbar .navbar-nav{margin:23px 0}
 .navbar.on .navbar-nav{margin:3px 0}
 .navbar .navbar-nav a{color:#E4E4E4;font-size:15px}
-.navbar.on .navbar-nav a{color:#343434}
-.navbar .navbar-nav a:hover, .navbar .navbar-nav .open .dropdown-toggle{background-color:transparent;color:#FFF}
-.navbar.on .navbar-nav a:hover{color:#000}
+.navbar.on .navbar-nav a,.navbar.black .navbar-nav a{color:#343434}
+.navbar .navbar-nav a:hover,.navbar .navbar-nav .open .dropdown-toggle{background-color:transparent;color:#FFF}
+.navbar.on .navbar-nav a:hover,.navbar.black .navbar-nav a:hover{color:#000}
 .navbar .navbar-nav a:focus{background-color:rgba(255,255,255,0.5);color:#343434}
 .navbar .navbar-nav .dropdown-menu{background-color:rgba(255,255,255,0.15);border-radius:0px;border-width:0px}
 
@@ -29,7 +31,8 @@ figure img{width:100%;height:auto}
 .video-background .text-over-video{top:360px;width:100%;opacity:0;font-family:Notera;font-size:72px;position:absolute;color:#FFF}
 .video-background .text-over-video i{font-family:'Raleway', sans-serif;text-transform:uppercase;font-weight:700;font-style:normal;font-size:14px;letter-spacing:3px;line-height:30px;display:block}
 .video-background .text-over-video .glyphicon{-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-ms-transform:rotate(90deg);font-size:48px;cursor:pointer;margin-top:240px}
-.video-background .text-over-video .glyphicon:hover{color:#74BF46}
+.video-background .text-over-video .glyphicon:hover{color:#CCC3B1}
+.video-background .map{width:100%;height:808px}
 .image-background{position:relative;background-color:#FFF;margin:0 0 180px}
 .image-background figure{width:100%;display:block}
 .image-background .text-over-image{position:absolute;bottom:-48px;color:#343434;text-transform:uppercase;font-weight:600;width:100%;font-size:11px}
@@ -43,8 +46,8 @@ figure img{width:100%;height:auto}
 .options p{position:absolute;bottom:24px;width:calc(100% - 96px);text-align:left;line-height:22px;margin:0 33px}
 .options p i{float:right}
 
-.home h1{font-family:Notera;font-size:60px;margin:150px 0 48px}
-.home .break{width:84px;margin:0 auto 24px}
+.home h1,.nursery h1,.about h1,.orangeries h1,.landscaping h1,.driveways h1,.visit h1{font-family:Notera;font-size:60px;margin:150px 0 48px}
+.home .break,.nursery .break,.about .break,.orangeries .break,.landscaping .break,.driveways .break,.visit .break{width:84px;margin:0 auto 24px}
 
 footer{border-top:1px solid #E4E4E4}
 footer p{margin:24px 0}

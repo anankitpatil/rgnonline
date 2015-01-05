@@ -21,12 +21,12 @@
       <a class="navbar-brand" href="#"><!--rope<b>garden</b>nursery-->RGN Orangeries<span>Of Cheshire</span></a> </div>
     <div class="collapse navbar-collapse" id="rgn-navbar">
       <ul class="nav navbar-nav navbar-right smooth">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Nursery</a></li>
-        <li><a href="#">Orangeries</a></li>
-        <li><a href="#">Landscaping</a></li>
-        <li><a href="#">Driveways</a></li>
+        <li><a href="<?php echo BASE_URL; ?>">Home</a></li>
+        <li><a href="<?php echo BASE_URL; ?>about">About Us</a></li>
+        <li><a href="<?php echo BASE_URL; ?>nursery">Nursery</a></li>
+        <li><a href="<?php echo BASE_URL; ?>orangeries">Orangeries</a></li>
+        <li><a href="<?php echo BASE_URL; ?>landscaping">Landscaping</a></li>
+        <li><a href="<?php echo BASE_URL; ?>driveways">Driveways</a></li>
         <!--<li class="dropdown"> <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" role="button" aria-expanded="false">Case Studies <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Action</a></li>
@@ -36,7 +36,7 @@
             <li><a href="#">Separated link</a></li>
           </ul>
         </li>-->
-        <li><a href="#">Visit Us</a></li>
+        <li><a href="<?php echo BASE_URL; ?>visit">Visit Us</a></li>
       </ul>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <header class="home">
   <div class="video-background">
-    <video class="bokeh-video" src="<?php echo BASE_URL; ?>static/images/bokeh.mov" autoplay loop></video>
+    <video class="bokeh-video" src="<?php echo BASE_URL; ?>static/images/bokeh.mp4" autoplay loop></video>
     <p class="text-over-video text-center">Creators of your living space<br />
       <i>Welcome to rope garden nursery</i>
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></p>

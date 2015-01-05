@@ -23,4 +23,5 @@
 <script src="<?php echo BASE_URL; ?>static/js/bootstrap.min.js"></script> 
 <script src="<?php echo BASE_URL; ?>static/js/bootstrap-hover-dropdown.min.js"></script> 
 <script src="<?php echo BASE_URL; ?>static/js/scripts.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </body></html>
