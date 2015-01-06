@@ -6,8 +6,8 @@
         <p><strong>E</strong>: <a href="mailto:info@ropegardennursery.co.uk">info@ropegardennursery.co.uk</a></p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 text-center">
-        <p>Rope Garden Nursery Gresty,<br />
-          Lane Rope, Crewe,<br />
+        <p>Rope Garden Nursery,<br />
+          Gresty Lane, Crewe,<br />
           Cheshire <strong>CW2 5DD</strong></p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 social">
@@ -22,6 +22,8 @@
 <script src="<?php echo BASE_URL; ?>static/js/moment.min.js"></script> 
 <script src="<?php echo BASE_URL; ?>static/js/bootstrap.min.js"></script> 
 <script src="<?php echo BASE_URL; ?>static/js/bootstrap-hover-dropdown.min.js"></script> 
+<script src="<?php echo BASE_URL; ?>static/js/bootstrapValidator.min.js"></script> 
 <script src="<?php echo BASE_URL; ?>static/js/scripts.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type='text/javascript' src="//wurfl.io/wurfl.js"></script>
+<?php if(isset($mapjs)) echo $mapjs; //Google map js ?>
 </body></html>

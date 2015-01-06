@@ -2,6 +2,7 @@
 <header class="orangeries">
   <div class="video-background">
     <video class="bokeh-video" src="<?php echo BASE_URL; ?>static/images/apples.mp4" autoplay loop></video>
+    <img class="bokeh-image" src="<?php echo BASE_URL; ?>static/images/apples.jpg" />
     <p class="text-over-video text-center">Bringing the outside in<br />
       <i>Designed to be an integral part of your home</i>
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></p>
@@ -11,7 +12,7 @@
   <div class="row">
     <div class="col-lg-2"></div>
     <div class="col-lg-8">
-      <h1 class="text-center">Welcome to your total home and garden resource</h1>
+      <h1 class="text-center">Orangeries</h1>
       <figure class="break"><img src="<?php echo BASE_URL; ?>static/images/break.png" /></figure>
     </div>
     <div class="col-lg-2"></div>
@@ -19,49 +20,35 @@
   <div class="row">
     <div class="col-lg-3"></div>
     <div class="col-lg-6 text-center draw-line">
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      <p>An orangery is becoming a popular alternative to conservatories. Whereas a conservatory has a large area of glass and is essentially an addition to a house, orangeries are designed to be an integral part of your home. The end result feels more like a continuation of the original house and not an 'add-on'.</p>
+      <h5>The benefits of an Orangery;</h5>
+      <ul>
+        <li><i class="fa fa-circle"></i>Cool in the summer</li>
+        <li><i class="fa fa-circle"></i>Warm in the winter</li>
+        <li><i class="fa fa-circle"></i>Temperature</li>
+        <li><i class="fa fa-circle"></i>Controlled environment</li>
+        <li><i class="fa fa-circle"></i>Brings the outside in!</li>
+        <li><i class="fa fa-circle"></i>Extra living space</li>
+        <li><i class="fa fa-circle"></i>Planning permission not always required</li>
+      </ul>
     </div>
     <div class="col-lg-3"></div>
   </div>
-  <div class="row image-background">
-    <div id="myCarousel" class="carousel slide mb24" data-ride="carousel"> 
-      <!-- Carousel indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <!-- Carousel items -->
-      <div class="carousel-inner">
-        <div class="item active"> <img src="<?php echo BASE_URL; ?>static/images/home_1.jpg" />
-          <p class="text-over-image text-center">A view of a landscape project completed recently</p>
-        </div>
-        <div class="item"> <img src="<?php echo BASE_URL; ?>static/images/home_2.jpg" />
-          <p class="text-over-image text-center">A view of a landscape project completed recently</p>
-        </div>
-        <div class="item"> <img src="<?php echo BASE_URL; ?>static/images/home_3.jpg" />
-          <p class="text-over-image text-center">A view of a landscape project completed recently</p>
-        </div>
-      </div>
-      <!-- Carousel nav --> 
-      <a class="carousel-control left" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="carousel-control right" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> </div>
-  </div>
-  <div class="row options">
-    <div class="col-lg-6 col-md-6">
-      <figure class="smooth"><img class="smooth" src="<?php echo BASE_URL; ?>static/images/home_n.jpg" /></figure>
-      <p>Nurseries<i class="fa fa-chevron-circle-right fa-2x"></i></p>
+  <div class="row midspace">
+    <div class="col-lg-4">
+      <figure><img src="<?php echo BASE_URL; ?>static/images/orangeries_1.jpg" /></figure>
+      <h4>Bi-Fold doors create the perfect link to outside</h4>
+      <p>Designing the orangery to lead into your outdoor space at the same floor level can give stunning effects and make the Orangery feel a great space.</p>
     </div>
-    <div class="col-lg-6 col-md-6">
-      <figure class="smooth"><img class="smooth" src="<?php echo BASE_URL; ?>static/images/home_o.jpg" /></figure>
-      <p>Orangeries<i class="fa fa-chevron-circle-right fa-2x"></i></p>
+    <div class="col-lg-4">
+      <figure><img src="<?php echo BASE_URL; ?>static/images/orangeries_2.jpg" /></figure>
+      <h4>Create a room outside and why not include a fabulous hot tub</h4>
+      <p>Whilst having an Orangery designed and built, why not treat your outdoor space to a bit of TLC too! Palms around a hot tub with well considered lighting can give you that holiday feel, just in your back garden!</p>
     </div>
-    <div class="col-lg-6 col-md-6">
-      <figure class="smooth"><img class="smooth" src="<?php echo BASE_URL; ?>static/images/home_l.jpg" /></figure>
-      <p>Landscapes<i class="fa fa-chevron-circle-right fa-2x"></i></p>
-    </div>
-    <div class="col-lg-6 col-md-6">
-      <figure class="smooth"><img class="smooth" src="<?php echo BASE_URL; ?>static/images/home_d.jpg" /></figure>
-      <p>Driveways<i class="fa fa-chevron-circle-right fa-2x"></i></p>
+    <div class="col-lg-4">
+      <figure><img src="<?php echo BASE_URL; ?>static/images/orangeries_3.jpg" /></figure>
+      <h4>Attention to every detail</h4>
+      <p>The smallest of details are considered when we design and build an Orangery. From the outdoor aesthetics of the build to the little details inside, such as built in speakers, self-clean glass and state of the art temperature control - whatever you are looking for, we are sure to surpass your expectations.</p>
     </div>
   </div>
 </div>

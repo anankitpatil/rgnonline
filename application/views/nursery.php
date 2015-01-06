@@ -2,6 +2,7 @@
 <header class="home">
   <div class="video-background">
     <video class="bokeh-video" src="<?php echo BASE_URL; ?>static/images/grass.mp4" autoplay loop></video>
+    <img class="bokeh-image" src="<?php echo BASE_URL; ?>static/images/grass.jpg" />
     <p class="text-over-video text-center">Bring your garden to life this summer<br />
       <i>Visit us at rope garden nursery</i>
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></p>
@@ -11,7 +12,7 @@
   <div class="row">
     <div class="col-lg-2"></div>
     <div class="col-lg-8">
-      <h1 class="text-center">Welcome to your total home and garden resource</h1>
+      <h1 class="text-center">Nursery</h1>
       <figure class="break"><img src="<?php echo BASE_URL; ?>static/images/break.png" /></figure>
     </div>
     <div class="col-lg-2"></div>
@@ -19,49 +20,28 @@
   <div class="row">
     <div class="col-lg-3"></div>
     <div class="col-lg-6 text-center draw-line">
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      <h5>Bring your garden to life this summer with a visit to our Nursery.</h5>
+      <p>We have a superb range of plants, shrubs, ferns and trees at great prices. You will also find a large range of decorative stone, hanging baskets and garden accessories.</p>
+	  <p>If it’s advice you are needing, simply ask a member of staff who will be happy to help you on your way to a wonderful, vibrant garden.</p>
+      <p>&nbsp;</p>
+      <h5>Season Hints & Tips</h5>
+      <p>Deadhead daffodils and narcissi; give them a liquid feed or a sprinkling of bonemeal and then let them die down. Try not to cut off the leaves as they help to replenish the bulb for next year. Keep deadheading spring bedding to keep it looking neat, and to encourage new flowers.</p>
+	  <p>Hoe your borders, getting rid of weeds before they take hold - why not take a trip to the Nursery and start choosing some new plants and shrubs for hanging baskets and borders. There is nothing better than adding a splash of colour to the garden to anticipate the summer months.</p>
     </div>
     <div class="col-lg-3"></div>
   </div>
-  <div class="row image-background">
-    <div id="myCarousel" class="carousel slide mb24" data-ride="carousel"> 
-      <!-- Carousel indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <!-- Carousel items -->
-      <div class="carousel-inner">
-        <div class="item active"> <img src="<?php echo BASE_URL; ?>static/images/home_1.jpg" />
-          <p class="text-over-image text-center">A view of a landscape project completed recently</p>
-        </div>
-        <div class="item"> <img src="<?php echo BASE_URL; ?>static/images/home_2.jpg" />
-          <p class="text-over-image text-center">A view of a landscape project completed recently</p>
-        </div>
-        <div class="item"> <img src="<?php echo BASE_URL; ?>static/images/home_3.jpg" />
-          <p class="text-over-image text-center">A view of a landscape project completed recently</p>
-        </div>
-      </div>
-      <!-- Carousel nav --> 
-      <a class="carousel-control left" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="carousel-control right" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> </div>
-  </div>
-  <div class="row options">
-    <div class="col-lg-6 col-md-6">
-      <figure class="smooth"><img class="smooth" src="<?php echo BASE_URL; ?>static/images/home_n.jpg" /></figure>
-      <p>Nurseries<i class="fa fa-chevron-circle-right fa-2x"></i></p>
+  <div class="row midspace">
+    <div class="col-lg-4">
+      <div class="offer" style="background:#E7A0C0">Small Perennials<br />6 for &pound;10</div>
+      <h4>More offers available at the Nursery!</h4>
     </div>
-    <div class="col-lg-6 col-md-6">
-      <figure class="smooth"><img class="smooth" src="<?php echo BASE_URL; ?>static/images/home_o.jpg" /></figure>
-      <p>Orangeries<i class="fa fa-chevron-circle-right fa-2x"></i></p>
+    <div class="col-lg-4">
+      <div class="offer" style="background:#A0E7A3">All Trees<br />20% off</div>
+      <h4>Colourful hanging baskets now ready.</h4>
     </div>
-    <div class="col-lg-6 col-md-6">
-      <figure class="smooth"><img class="smooth" src="<?php echo BASE_URL; ?>static/images/home_l.jpg" /></figure>
-      <p>Landscapes<i class="fa fa-chevron-circle-right fa-2x"></i></p>
-    </div>
-    <div class="col-lg-6 col-md-6">
-      <figure class="smooth"><img class="smooth" src="<?php echo BASE_URL; ?>static/images/home_d.jpg" /></figure>
-      <p>Driveways<i class="fa fa-chevron-circle-right fa-2x"></i></p>
+    <div class="col-lg-4">
+      <div class="offer" style="background:#A0D0E7">Fruit Bushes<br />2 for &pound;10</div>
+      <h4>Great offers on Tomato Plants.</h4>
     </div>
   </div>
 </div>

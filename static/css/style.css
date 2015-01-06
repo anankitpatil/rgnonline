@@ -3,7 +3,10 @@
 
 body, html{font-family:'Raleway', sans-serif}
 .smooth{-webkit-transition:all 300ms ease-out;-moz-transition:all 300ms ease-out;-o-transition:all 300ms ease-out;transition:all 300ms ease-out}
-.draw-line{padding-bottom:48px;padding-top:24px;margin-bottom:96px}
+.draw-line{padding-top:24px;margin-bottom:112px}
+.draw-line ul{padding-left:12px;list-style:circle;margin: 12px 0}
+.draw-line ul li{display:inline-block}
+.draw-line ul li i{margin:0 9px 0 18px;font-size:12px;color:#CCC}
 figure img{width:100%;height:auto}
 .carousel-inner{overflow:visible}
 
@@ -28,26 +31,42 @@ figure img{width:100%;height:auto}
 
 .video-background{position:relative;background-color:#000}
 .video-background .bokeh-video{width:100%;opacity:0;display:block}
+.video-background .bokeh-image{display:none;width:100%;height:auto;opacity:0}
 .video-background .text-over-video{top:360px;width:100%;opacity:0;font-family:Notera;font-size:72px;position:absolute;color:#FFF}
 .video-background .text-over-video i{font-family:'Raleway', sans-serif;text-transform:uppercase;font-weight:700;font-style:normal;font-size:14px;letter-spacing:3px;line-height:30px;display:block}
 .video-background .text-over-video .glyphicon{-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-ms-transform:rotate(90deg);font-size:48px;cursor:pointer;margin-top:240px}
 .video-background .text-over-video .glyphicon:hover{color:#CCC3B1}
-.video-background .map{width:100%;height:808px}
-.image-background{position:relative;background-color:#FFF;margin:0 0 180px}
+.video-background .map{width:100%;height:1080px}
+.image-background{position:relative;background-color:#FFF;margin:0 0 150px}
+.image-background .carousel-inner{overflow:hidden}
 .image-background figure{width:100%;display:block}
 .image-background .text-over-image{position:absolute;bottom:-48px;color:#343434;text-transform:uppercase;font-weight:600;width:100%;font-size:11px}
-.options{margin-bottom:96px}
-.options div{text-align:center;text-transform:uppercase;font-weight:600;font-size:11px;color:#343434;position:relative;margin-bottom:30px}
-.options figure{cursor:pointer;overflow:hidden;border:3px solid #E4E4E4;padding:12px}
-.options figure:hover{}
+.midspace figure{margin-bottom:48px}
+.midspace .col-lg-4{margin-bottom:96px}
+.midspace .offer{height:240px;width:100%;text-align:center;color:#FFF;padding:69px 0;font-size:36px;margin-bottom:48px}
+.options{margin:0 0 72px 0}
+.options a{text-decoration:none;color:#393939}
+.options .col-lg-6{width:47.5%;margin-bottom:48px}
+.options .col-lg-6:nth-child(odd){margin-right:5%}
+.options figure{cursor:pointer;overflow:hidden}
 .options figure img{-webkit-filter:grayscale(100%);opacity:0.33}
-.options figure:hover img{-webkit-filter:grayscale(0%);opacity:1}
-.options figure:hover + p{color:#E4E4E4}
-.options p{position:absolute;bottom:24px;width:calc(100% - 96px);text-align:left;line-height:22px;margin:0 33px}
-.options p i{float:right}
+.options a:hover img{-webkit-filter:grayscale(0%);opacity:1}
+.options a:hover .image-title{color:#E4E4E4}
+.options a:hover h4{color:#696969}
+.options .image-title{position:absolute;bottom:51px;left:48px;width:calc(100% - 96px);text-align:left;line-height:22px;text-transform:uppercase;font-weight:600;font-size:11px;color:#343434;position:relative}
+.options .image-title i{float:right}
+.marshall{margin-bottom:96px}
+.marshall h3{margin-top:36px}
 
 .home h1,.nursery h1,.about h1,.orangeries h1,.landscaping h1,.driveways h1,.visit h1{font-family:Notera;font-size:60px;margin:150px 0 48px}
 .home .break,.nursery .break,.about .break,.orangeries .break,.landscaping .break,.driveways .break,.visit .break{width:84px;margin:0 auto 24px}
+
+.visit form input,.visit form textarea,.visit form textarea,.visit .alert{border-radius:0;resize:none}
+.visit .alert{display:none}
+.visit .contactform{padding-bottom:96px}
+.visit form .form-group{padding:0 15px;padding-top:18px;margin-bottom:0px}
+.visit form .btn{width:120px}
+.visit form .form-control-feedback{top:43px}
 
 footer{border-top:1px solid #E4E4E4}
 footer p{margin:24px 0}
@@ -62,20 +81,26 @@ footer .social a:hover i{color:#FFF}
 
 @media(min-width:1600px){
 .video-background .text-over-video{top:360px}
+.video-background .map{height:960px}
 }
 @media(min-width:1200px) and (max-width:1599px){
 .video-background .text-over-video{top:300px}
 .video-background .text-over-video .glyphicon{margin-top:150px}
+.video-background .map{height:800px}
 }
 @media(min-width:992px) and (max-width:1199px){
 .video-background .text-over-video{top:210px}
 .video-background .text-over-video .glyphicon{margin-top:90px}
+.video-background .map{height:720px}
 }
 @media(min-width:768px) and (max-width:991px){
 .navbar .navbar-nav a{padding:15px 6px;font-size:12px}
 .video-background .text-over-video{top:180px;font-size:60px}
 .video-background .text-over-video i{font-size:12px}
 .video-background .text-over-video .glyphicon{font-size:36px;margin-top:24px}
+.video-background .map{height:640px}
+.options .col-lg-6{width:100%}
+.options .col-lg-6:nth-child(odd){margin-right:0}
 }
 @media(max-width:767px){
 .navbar-toggle{margin-top:30px}
@@ -88,12 +113,23 @@ footer .social a:hover i{color:#FFF}
 .video-background .text-over-video{top:120px;font-size:42px}
 .video-background .text-over-video i{font-size:10px;font-weight:400;letter-spacing:2px}
 .video-background .text-over-video .glyphicon{font-size:24px;margin-top:0px}
-.home h1{font-size:51px;margin:150px 0 48px}
+.video-background .map{height:480px}
+.options{margin-bottom:48px}
+.options .col-lg-6{width:auto}
+.options .col-lg-6:nth-child(odd){margin-right:0}
+.home h1,.nursery h1,.about h1,.orangeries h1,.landscaping h1,.driveways h1,.visit h1{font-size:51px;margin:150px 0 48px}
+.image-background{margin-bottom:96px}
 footer .text-center{text-align:right}
 footer .social{text-align:center}
 }
 @media(max-width:479px){
-.video-background .text-over-video{top:90px;font-size:36px}
+.video-background .text-over-video{top:90px;font-size:24px}
+.video-background .map{height:360px}
+.home h1,.nursery h1,.about h1,.orangeries h1,.landscaping h1,.driveways h1,.visit h1{font-size:36px;margin:75px 0 48px}
+.image-background{margin-bottom:60px}
+.draw-line{margin-bottom:48px}
+.visit .contactform{padding-bottom:48px}
+.options{margin-bottom:0px}
 footer .col-xs-6{width:100%}
 footer .text-center,footer .number{text-align:center}
 }
