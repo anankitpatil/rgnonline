@@ -1,8 +1,8 @@
 <?php include('header.php'); ?>
 <header class="driveways">
   <div class="video-background">
-    <video class="bokeh-video" src="<?php echo BASE_URL; ?>static/images/rain.mp4" autoplay loop></video>
-    <img class="bokeh-image" src="<?php echo BASE_URL; ?>static/images/rain.jpg" />
+    <video class="bokeh-video" src="<?php echo BASE_URL; ?>static/images/driveway.mp4" autoplay loop></video>
+    <img class="bokeh-image" src="<?php echo BASE_URL; ?>static/images/driveway.jpg" />
     <p class="text-over-video text-center">The perfect driveways<br />
       <i>Visit us at rope garden nursery</i>
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></p>
